@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavan Kumar H N - Java Full Stack Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading Portfolio...</div>
+      </div>
+    </div>
+
+    <!-- Enhanced Navigation -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-container">
+          <div class="logo">Pavan Kumar</div>
+          <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links" id="navLinks">
+            <li>
+              <a href="#home" class="nav-link"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><i class="fas fa-user"></i> About</a
+              >
+            </li>
+            <li>
+              <a href="#education" class="nav-link"
+                ><i class="fas fa-graduation-cap"></i> Education</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="nav-link"
+                ><i class="fas fa-code"></i> Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="nav-link"
+                ><i class="fas fa-project-diagram"></i> Projects</a
+              >
+            </li>
+            <li>
+              <a href="#timeline" class="nav-link"
+                ><i class="fas fa-briefcase"></i> Experience</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="particles" id="particles"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">PAVAN KUMAR H N</h1>
+          <h2 class="hero-subtitle">
+            Java Full Stack Developer & Creative Technologist
+          </h2>
+          <p class="hero-description">
+            I'm a dedicated and hardworking individual with a strong ability to
+            learn quickly and adapt to new challenges. I demonstrate excellent
+            teamwork skills, thrive in collaborative environments, and
+            consistently ensure tasks are completed efficiently and effectively.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Passionate Full Stack Developer</h3>
+            <p>
+              I'm a passionate full-stack developer with expertise in Java and
+              modern web technologies. Currently pursuing a Bachelor of
+              Engineering in Information Science and Engineering, I have a
+              strong foundation in both frontend and backend development.
+            </p>
+            <p>
+              What sets me apart is my ability to bridge gap between technical
+              implementation and creative problem-solving. Whether I'm building
+              an AI-powered healthcare assistant or designing assistive
+              technology for visually impaired users, I approach each project
+              with enthusiasm and a commitment to excellence.
+            </p>
+            <p>
+              I'm motivated to contribute and grow in professional settings,
+              bringing enthusiasm and a proactive approach to problem-solving.
+              My experience with diverse technologies from Arduino to React.js
+              allows me to adapt quickly to new challenges and deliver
+              innovative solutions.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="about-image-container">
+              <div class="about-image-placeholder">
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="education-title">Bachelor of Engineering</h3>
+            <h4 class="education-subtitle">
+              Information Science and Engineering
+            </h4>
+            <p class="education-date">June 2021 - June 2025</p>
+            <p class="education-description">
+              <strong>Sri Krishna Institution of Technology</strong><br />
+              Focusing on software development, algorithms, and system design.
+              Building a strong foundation in computer science principles and
+              practical applications.
+            </p>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <h3 class="education-title">Pre-University Education</h3>
+            <h4 class="education-subtitle">PCMC</h4>
+            <p class="education-date">Jan 2020 - Dec 2021</p>
+            <p class="education-description">
+              <strong>M E S PU College of Arts, Commerce and Science</strong
+              ><br />
+              Bangalore, India<br />
+              Completed with distinction in Computer Science stream
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card java">
+            <div class="skill-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <h3 class="skill-name">Java</h3>
+            <p class="skill-description">
+              Backend development, Spring Boot, REST APIs, enterprise
+              applications
+            </p>
+            <div class="skill-level">
+              <div
+                class="skill-progress"
+                data-skill="85"
+                style="
+                  background: linear-gradient(90deg, #f89820, #5382a1);
+                  width: 85%;
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="skill-card react">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3 class="skill-name">React.js</h3>
+            <p class="skill-description">
+              Component-based UI, state management, hooks, modern frontend
+              development
+            </p>
+            <div class="skill-level">
+              <div
+                class="skill-progress"
+                data-skill="75"
+                style="
+                  background: linear-gradient(90deg, #61dafb, #282c34);
+                  width: 75%;
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="skill-card node">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3 class="skill-name">Node.js</h3>
+            <p class="skill-description">
+              Server-side JavaScript, Express.js, API development, microservices
+            </p>
+            <div class="skill-level">
+              <div
+                class="skill-progress"
+                data-skill="70"
+                style="
+                  background: linear-gradient(90deg, #339933, #3c873a);
+                  width: 70%;
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="skill-name">Databases</h3>
+            <p class="skill-description">
+              MySQL, MongoDB, PostgreSQL, database design, optimization
+            </p>
+            <div class="skill-level">
+              <div
+                class="skill-progress"
+                data-skill="75"
+                style="background: var(--gradient-1); width: 75%"
+              ></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="skill-name">Web Technologies</h3>
+            <p class="skill-description">
+              HTML5, CSS3, JavaScript, TypeScript, Bootstrap, Tailwind CSS
+            </p>
+            <div class="skill-level">
+              <div
+                class="skill-progress"
+                data-skill="90"
+                style="background: var(--gradient-1); width: 90%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/ai-chatbot-interface-healthcare-code/400/250.jpg"
+                alt="Medibot Healthcare AI"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Medibot - AI Powered Healthcare Assistant
+              </h3>
+              <p class="project-description">
+                Built a chatbot-style AI assistant to help users with medical
+                queries and symptom checks. Integrated Meta's LLaMA2 for natural
+                language understanding and medical response generation.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">LLaMA2</span>
+                <span class="tech-tag">LangChain</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/customer-service-training-dashboard-interface/400/250.jpg"
+                alt="CSR Training Platform"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                AI-Powered Training Platform for CSRs
+              </h3>
+              <p class="project-description">
+                Developed a full-stack training platform with realistic
+                AI-customer interaction. Used OpenAI GPT-4 for simulating
+                customer behavior and providing detailed feedback evaluation.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">OpenAI API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/arduino-electronics-circuit-board-sensors/400/250.jpg"
+                alt="Braille Chessboard"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Braille Chessboard</h3>
+              <p class="project-description">
+                Designed an assistive chessboard for visually impaired users
+                using Arduino Uno. Used IR sensors and vibration motors to
+                provide tactile move feedback with real-time audio alerts.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Arduino Uno</span>
+                <span class="tech-tag">IR Sensors</span>
+                <span class="tech-tag">Buzzer</span>
+                <span class="tech-tag">Embedded C</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/food-ordering-management-dashboard-system/400/250.jpg"
+                alt="Food Management System"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Online Food Management System</h3>
+              <p class="project-description">
+                Built an online platform to manage food ordering, inventory, and
+                kitchen operations. Designed user-friendly UI for admins,
+                customers, and kitchen staff with real-time order tracking.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/quotation-management-business-dashboard-interface/400/250.jpg"
+                alt="Quotation Management"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                SST Process and Quotation Management
+              </h3>
+              <p class="project-description">
+                Developed a quotation generation and tracking tool for an SST
+                manufacturing firm. Implemented role-based access control and
+                automated workflow, reducing processing time by 60%.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">React.js</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="https://picsum.photos/seed/attendance-tracking-hr-dashboard-system/400/250.jpg"
+                alt="Attendance Management"
+                class="project-image"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Attendance Management System</h3>
+              <p class="project-description">
+                Developed a comprehensive attendance tracking system with user
+                authentication, reporting features, and automated notifications
+                for HR management.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline">
+      <div class="container">
+        <h2 class="section-title">Experience & Achievements</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Aug 2025 - Present</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Java Full Stack Intern</h3>
+              <h4 class="timeline-subtitle">Jspiders, Bangalore</h4>
+              <p class="timeline-description">
+                Currently working as a Java Full Stack Developer intern,
+                developing enterprise applications and implementing scalable
+                backend solutions. Gaining hands-on experience with modern Java
+                frameworks and full-stack development practices.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">June 2021 - June 2025</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Bachelor of Engineering</h3>
+              <h4 class="timeline-subtitle">
+                Information Science and Engineering
+              </h4>
+              <p class="timeline-description">
+                <strong>Sri Krishna Institution of Technology</strong><br />
+                Currently pursuing with focus on software development,
+                algorithms, data structures, and system architecture.
+                Maintaining excellent academic performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 2022</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Hub Intern</h3>
+              <h4 class="timeline-subtitle">
+                ComedKares Innovation, Bangalore
+              </h4>
+              <p class="timeline-description">
+                Developed rapid prototype for enhancing communication between
+                blind and deaf individuals using Arduino-based systems. Gained
+                hands-on experience in IoT and assistive technology development.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Jan 2020 - Dec 2021</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Pre-University Education</h3>
+              <h4 class="timeline-subtitle">Computer Science Stream</h4>
+              <p class="timeline-description">
+                <strong>M E S PU College, Bangalore</strong><br />
+                Completed with distinction in Computer Science stream. Developed
+                strong foundation in programming and mathematics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in hearing about new opportunities and
+              exciting projects. Feel free to reach out if you'd like to
+              collaborate or just have a chat about technology!
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>pavankumardeveege02@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 8431765906</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Bengaluru, Karnataka, India</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="john@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  placeholder="Project Inquiry"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Tell me about your project..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 Pavan Kumar H N. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
